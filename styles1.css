@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 238, 221);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(0, 141, 218);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+}
+
+.scrolled {
+    background-color: rgb(65, 201, 226);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+section h1 {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#home{
+    background-image: url("./home.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#about{
+    background-image: url("./about.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content:flex-end;
+    padding-right: 150px;
+}
+
+#services{
+    background-image: url("./services.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contact{
+    background-image: url("./contact.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#contact > h1 {
+    
+    rotate:  -30deg;
+    font-size: 40px;
+}
+
+
